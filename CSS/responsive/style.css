@@ -1,0 +1,36 @@
+/* .box{
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    min-height: 200px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width : 480px ){
+    .box{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width : 480px ) and (max-width : 780px ){
+    .box{
+        width: 70%;
+    }
+}
+.container{
+    display: grid;
+} */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 1 fr berarti menabah kolom */
+    column-gap: 50px; /* jarak antar kolom */
+    row-gap: 50px; /* jarak antar baris */
+}
+.box{
+    border: 2px solid black;
+    min-height: 100px;
+    width: 100%;
+    font-size: 50px;
+}

@@ -1,0 +1,6 @@
+h1, .form {
+    border-bottom: 1px solid black;
+}
+.header, .form, .footer {
+    margin-bottom: 5%;
+}
